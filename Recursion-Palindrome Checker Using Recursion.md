@@ -6,7 +6,6 @@ To write a Python program to check whether a given string is a **palindrome** us
 ---
 
 ## 🧠 ALGORITHM:
-
 1. **Start**
 2. Define a recursive function `is_palindrome(word)`
    - **Base Case:** If the string length is less than 1, return `True`
@@ -21,6 +20,7 @@ To write a Python program to check whether a given string is a **palindrome** us
 
 ## 💻 PROGRAM:
 
+```python
 def is_palindrome(word):
     if len(word) < 1:
         return True
@@ -34,13 +34,11 @@ if is_palindrome(s):
     print("Palindrome")
 else:
     print("Not Palindrome")
-
+```
 
 ## OUTPUT
-
 Input: malayalam
 Palindrome
 
 ## RESULT
 Thus, the Python program successfully checks whether a given string is a palindrome using recursion.
-
