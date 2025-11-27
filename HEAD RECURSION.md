@@ -17,8 +17,23 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+def fun(n):
+    if n == 0:
+        return
+    fun(n - 2)            # Head recursion (recursive call first)
+    print(n, end=" ")
+
+num = int(input())
+if num % 2 != 0:          # If odd, convert to next even number
+    num += 1
+fun(num)
+
 
 ## OUTPUT
 
+Input: 7
+2 4 6 8
+
 ## RESULT
+
+Thus, the Python program successfully demonstrates Head Recursion, printing the sequence after adjusting the input based on even or odd value.
