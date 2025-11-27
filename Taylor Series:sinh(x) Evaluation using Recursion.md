@@ -6,7 +6,6 @@ To write a Python program to evaluate the value of **sinh(x)** for **n terms** u
 ---
 
 ## 🧠 ALGORITHM:
-
 1. **Start**
 2. Read input for variable `x` (angle or number)
 3. Read input for variable `n` (number of terms)
@@ -23,6 +22,7 @@ To write a Python program to evaluate the value of **sinh(x)** for **n terms** u
 
 ## 💻 PROGRAM:
 
+```python
 def fact(n):
     if n <= 1:
         return 1
@@ -37,14 +37,20 @@ x = float(input())
 n = int(input())
 result = sinh_series(x, n)
 print("sinh(x) =", result)
-
+```
 
 ## OUTPUT
 
-Input:
+**Input:**
+```
 2
 3
+```
+
+**Output:**
+```
 sinh(x) = 3.626858347057703
+```
 
 ## RESULT
 
