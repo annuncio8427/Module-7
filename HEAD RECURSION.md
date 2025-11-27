@@ -17,16 +17,18 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 
 ## 💻 PROGRAM:
 
+```python
 def fun(n):
     if n == 0:
         return
-    fun(n - 2)            # Head recursion (recursive call first)
+    fun(n - 2)           # Head recursion (recursive call first)
     print(n, end=" ")
 
 num = int(input())
-if num % 2 != 0:          # If odd, convert to next even number
+if num % 2 != 0:         # If odd, convert to next even number
     num += 1
 fun(num)
+```
 
 
 ## OUTPUT
